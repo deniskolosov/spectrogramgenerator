@@ -19,6 +19,17 @@ and you will get a JSON response:
 ```
 **Note:** This was written mainly for educational purposes, if you have any comments or suggestions, feel free to drop me a line to <denis.kolosov@gmail.com>
 
+## Dependencies
+You will need SoX to get actual spectrograms. Install on Debian-like systems:
+```bash
+$  sudo apt-get install sox
+```
+If you need to convert mp3s:
+```bash
+$  sudo apt-get install sox libsox-fmt-mp3 
+```
+
+
 ## API Reference
 Currently (and probably it won't change) there is only one endpoint: /api/v1/post
 
