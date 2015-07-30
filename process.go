@@ -84,5 +84,5 @@ func BuildSpectrograms() {
 }
 
 type JsonResponse struct {
-	Spectrograms map[string]string `json:"results"`
+	Spectrograms map[string][]string `json:"results"`
 }
